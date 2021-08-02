@@ -3,7 +3,7 @@
 //
 header.masthead {
   width: 400%;
-  height: 100vh;
+  height: 110vh;
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
   background: rgb(244,233,227);
@@ -23,7 +23,7 @@ header.masthead .container {
 }
 @media (min-width: 992px) {
   header.masthead {
-    height: 100vh;
+    height: 110vh;
     min-height: 40rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
