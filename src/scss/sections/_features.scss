@@ -45,3 +45,21 @@
 #features .container {
   margin-left: 60px;
 }
+
+@media (max-width: 650px) {
+  #features {
+    width: auto;
+    padding: 20px;
+  }
+  .container, .px-4, .px-lg-5 {
+    margin-left: 0px !important;
+  }
+
+  h2 {
+    width: 100% !important;
+  }
+
+  .categories {
+    left: 50% !important;
+  }
+}

@@ -20,3 +20,18 @@
   text-decoration: none;
   font-family: sans-serif;
 }
+
+.powr-form-builder #form-watermark-edit-on-click {
+  display: none;
+}
+
+@media (max-width: 650px) {
+  #contact {
+    margin: 0px;
+    padding: 2rem 0rem;
+  }
+
+  .social {
+    width: 80% !important;
+  }
+}

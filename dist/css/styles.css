@@ -10977,6 +10977,20 @@ hr.divider-light {
   font-family: sans-serif;
 }
 
+.powr-form-builder #form-watermark-edit-on-click {
+  display: none;
+}
+
+@media (max-width: 650px) {
+  #contact {
+    margin: 0px;
+    padding: 2rem 0rem;
+  }
+
+  .social {
+    width: 80% !important;
+  }
+}
 .generators .gen-item {
   display: flex;
   justify-content: space-between;
@@ -11026,12 +11040,29 @@ hr.divider-light {
   margin-left: 60px;
 }
 
+@media (max-width: 650px) {
+  #features {
+    width: auto;
+    padding: 20px;
+  }
+
+  .container, .px-4, .px-lg-5 {
+    margin-left: 0px !important;
+  }
+
+  h2, .h2 {
+    width: 100% !important;
+  }
+
+  .categories {
+    left: 50% !important;
+  }
+}
 header.masthead {
   width: 400%;
-  height: 100vh;
+  height: 110vh;
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: #f4e9e3;
   background: linear-gradient(145deg, #f4e9e3 0%, #ccaba6 100%);
   background-position: center;
   background-repeat: no-repeat;
@@ -11040,7 +11071,7 @@ header.masthead {
 }
 
 header.masthead h1, header.masthead .h1 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-family: sans-serif;
   width: 90%;
 }
@@ -11049,9 +11080,9 @@ header.masthead .container {
   margin-left: 0px;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   header.masthead {
-    height: 100vh;
+    height: 110vh;
     min-height: 40rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
@@ -11062,17 +11093,13 @@ header.masthead .container {
   }
 
   header.masthead h1, header.masthead .h1 {
-    font-size: 2rem;
-    width: 66%;
-  }
-}
-@media (min-width: 1200px) {
-  header.masthead h1, header.masthead .h1 {
-    font-size: 3.5rem;
+    font-size: 1.5rem;
+    width: 70vw;
   }
 }
 .head-logo {
-  width: 30%;
+  min-height: 5vw;
+  height: 6vw;
   margin-bottom: 20px;
 }
 
@@ -11082,6 +11109,7 @@ header.masthead .container {
 
 header.masthead .download {
   display: flex;
+  flex-direction: row;
   width: 70%;
   justify-content: space-between;
   margin-top: 20px;
@@ -11114,10 +11142,40 @@ header.masthead .download-button:hover {
 }
 
 header.masthead .download-button img {
-  /* width: 115px; */
+  width: 80%;
   background-size: cover;
 }
 
+@media (max-width: 1200px) {
+  header.masthead h1, header.masthead .h1 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 650px) {
+  header.masthead {
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    min-height: auto;
+  }
+
+  .h-100 {
+    height: auto;
+  }
+
+  header.masthead h1, header.masthead .h1 {
+    font-size: 1.5rem;
+    width: 90vw;
+  }
+
+  header.masthead .download {
+    flex-direction: column !important;
+  }
+
+  header.masthead .middle {
+    margin: 10px 0px;
+  }
+}
 .totalview {
   display: flex;
   transform: translateY(-25px);
@@ -11155,6 +11213,14 @@ header.masthead .download-button img {
 }
 
 @media (max-width: 650px) {
+  nav {
+    display: none;
+  }
+
+  .rightside {
+    display: none;
+  }
+
   .demo .pixel {
     display: none;
   }
