@@ -1,0 +1,133 @@
+.totalview {
+  display: flex;
+  transform: translateY(-25px);
+}
+
+.totalview .rightside {
+  transform: translateY(50px);
+}
+
+.js-formBuilder-toggle .formbuilder-toggle  {
+  display: none;
+}
+
+.footer {
+  padding: 20px 0px;
+  color: #2F314A;
+  background: rgb(244,233,227);
+  background: linear-gradient(145deg, rgba(244,233,227,1) 0%, rgba(204,171,166,1) 100%);
+}
+
+.demo {
+  z-index: 4;
+  position: sticky;
+  top: 90px;
+  width: 240%;
+}
+
+.demo .pixel {
+  width: calc(67vw - 350px);
+  max-width: calc(100vh - 350px);
+  min-width: calc(100vh - 492px);
+  /* position: fixed; */
+  /* right: 0px; */
+  /* top: 100px; */
+}
+@media (max-width: 650px) {
+  .demo .pixel {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .display-5 {
+    font-size: 1.5rem;
+  }
+}
+
+h1, .h1 {
+  font-size: calc(1.375rem);
+}
+.gx-5 {
+  --bs-gutter-x: 1.5rem;
+}
+.gy-5 {
+  --bs-gutter-y: 1.5rem;
+}
+.gx-sm-5 {
+  --bs-gutter-x: 1.5rem;
+}
+.gy-sm-5 {
+  --bs-gutter-y: 1.5rem;
+}
+.gx-md-5 {
+  --bs-gutter-x: 1.5rem;
+}
+.gy-md-5 {
+  --bs-gutter-y: 1.5rem;
+}
+.gx-lg-5 {
+  --bs-gutter-x: 1.5rem;
+}
+.gy-lg-5 {
+  --bs-gutter-y: 1.5rem;
+}
+.gx-xl-5 {
+  --bs-gutter-x: 1.5rem;
+}
+.gy-xl-5 {
+  --bs-gutter-y: 1.5rem;
+}
+.gx-xxl-5 {
+  --bs-gutter-x: 1.5rem;
+}
+.gy-xxl-5 {
+  --bs-gutter-y: 1.5rem;
+}
+
+.nav-link {
+  color: #2F314A;
+}
+.nav-link:hover, .nav-link:focus {
+  color: #604969;
+}
+.text-c {
+  color: #6B6562 !important;
+}
+.page-section {
+  padding: 4rem 0;
+}
+.text-white-75 {
+  background-color: #C9ADA7;
+}
+#mainNav .navbar-brand, .navbar-nav .nav-item .nav-link {
+  color: #2F314A;
+}
+#mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
+  color: #30223B;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active {
+  color: #30223B !important;
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-brand {
+    color: rgba(47, 49, 74, 0.7);
+  }
+  #mainNav .navbar-brand:hover {
+    color: #604969;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: rgba(47, 49, 74, 0.7);
+    padding: 0 1rem;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #604969;
+  }
+  #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+    color: #2F314A;
+  }
+  #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
+    color: #30223B;
+  }
+}

@@ -1,0 +1,22 @@
+#contact {
+  border-top: 2px solid #C9ADA7;
+  padding: 4rem 100px;
+  z-index: 999;
+  margin: 0px 100px;
+}
+
+#contact .social {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 0 auto;
+}
+#contact .social img {
+  width: 20px;
+}
+
+#contact .social a {
+  color: #4A4E69;
+  text-decoration: none;
+  font-family: sans-serif;
+}

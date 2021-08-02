@@ -1,0 +1,47 @@
+.generators {
+
+}
+
+.generators .gen-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.generators .gen-item .title {
+  font-family: sans-serif;
+  width: fit-content;
+  padding: 5px 10px;
+  color: #96959F;
+  transition: all 0.2s;
+}
+
+.generators .gen-item .categories {
+  font-family: sans-serif;
+  position: absolute;
+  display: none;
+  transition: all 0.2s;
+  left: 20%;
+  padding-top: 20px;
+  opacity: 0;
+}
+
+.generators .gen-item .title:hover {
+  color: #2F314A;
+  padding: 20px 10px;
+  font-weight: bold;
+}
+.generators .gen-item .title:hover + .categories {
+  display: block;
+  left: 35%;
+  opacity: 1;
+}
+
+#features {
+  width: 400%;
+}
+#features .text-left {
+  width: 71%;
+}
+#features .container {
+  margin-left: 60px;
+}
