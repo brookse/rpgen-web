@@ -25,11 +25,13 @@
   padding-top: 20px;
   opacity: 0;
 
+  color: #96959F;
   transform: translateY(20px);
   padding: 10px 20px;
   border-radius: 00px 20px 20px;
   box-shadow: 2px 3px 8px 1px;
   transition: all 0.2s;
+  background-color: white;
 }
 
 .generators .gen-item .title:hover {
