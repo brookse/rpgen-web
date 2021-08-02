@@ -1,10 +1,14 @@
+#page-top {
+  overflow-x: clip;
+}
+
 .totalview {
   display: flex;
   transform: translateY(-25px);
 }
 
 .totalview .rightside {
-  transform: translateY(50px);
+  transform: translate(-300px, 50px);
 }
 
 .js-formBuilder-toggle .formbuilder-toggle  {
@@ -93,7 +97,7 @@ h1, .h1 {
 }
 
 .nav-link {
-  color: #2F314A;
+  color: #96959F;
 }
 .nav-link:hover, .nav-link:focus {
   color: #604969;
@@ -119,6 +123,7 @@ h1, .h1 {
 
 @media (max-width: 992px) {
   #mainNav .container {
+    color: #96959F;
     width: 100%;
     max-width: 100%;
   }
