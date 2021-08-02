@@ -6,6 +6,7 @@
 }
 
 #contact .social {
+  transition: all 0.2s;
   display: flex;
   justify-content: space-between;
   width: 80%;
@@ -16,7 +17,16 @@
 }
 
 #contact .social a {
+  transition: all 0.2s;
   color: #4A4E69;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+#contact .social a:hover {
+  color: #C9ADA7;
+  letter-spacing: 2px;
   text-decoration: none;
   font-family: sans-serif;
 }
