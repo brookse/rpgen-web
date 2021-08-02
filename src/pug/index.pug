@@ -26,8 +26,8 @@ html(lang='en')
 
     body#page-top
       // Navigation
-      nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top.py-3
-        .container.px-4.px-lg-5(href="#page-top")
+      nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top.py-3(href="#page-top")
+        .container.px-4.px-lg-5
           img.header-logo(src='assets/img/long-title.png', title='RPGen')
           button.navbar-toggler.navbar-toggler-right(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
             span.navbar-toggler-icon
@@ -51,7 +51,7 @@ html(lang='en')
                   img.head-logo(src="assets/img/long-title.png")
                   h1.text-body.font-weight-bold Unlimited hand-crafted generated content for anything your RPG needs
                   hr.divider
-                .col-lg-8.align-self-baseline(href="#download")
+                #download.col-lg-8.align-self-baseline(href="#download")
                   h1.text-body.font-weight-bold Download on
                   .download
                     a.download-button(href="https://play.google.com/store/apps/details?id=com.lyzzibrooks.rpgen")
