@@ -98,6 +98,10 @@ header.masthead .download-button img {
   header.masthead .download {
     flex-direction: column !important;
   }
+  header.masthead .download-button img {
+    background-size: cover;
+    width: 100%;
+  }
   header.masthead .middle {
     margin: 10px 0px;
   }
