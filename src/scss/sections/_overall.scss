@@ -115,7 +115,7 @@ h1, .h1 {
   color: #96959F !important;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #4A4E69;
+  color: #4A4E69 !important;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
   color: #4A4E69 !important;
@@ -131,7 +131,7 @@ h1, .h1 {
     color: rgba(47, 49, 74, 0.7);
   }
   #mainNav .navbar-brand:hover {
-    color: #4A4E69;
+    color: #4A4E69 !important;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     color: #96959F !important;
@@ -141,7 +141,7 @@ h1, .h1 {
     color: #4A4E69;
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
-    color: #2F314A;
+    color: #96959F;
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
     color: #4A4E69;
