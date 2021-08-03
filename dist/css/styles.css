@@ -11007,12 +11007,13 @@ hr.divider-light {
   }
 }
 .generators {
-  width: 70%;
+  width: 100%;
 }
 
 .generators .gen-item {
   display: flex;
   justify-content: flex-start;
+  height: 30px !important;
 }
 
 .generators .gen-item .title {
@@ -11038,15 +11039,15 @@ hr.divider-light {
   display: none;
   transition: all 0.2s;
   opacity: 0;
+  overflow: visible;
   color: #96959F;
-  padding: 10px;
+  padding: 5px 10px;
   transition: all 0.2s;
 }
 
 .generators .gen-item .title:hover {
   letter-spacing: 2px;
   color: #2F314A;
-  padding: 10px 10px;
   font-weight: bold;
 }
 
@@ -11186,9 +11187,13 @@ header.masthead .download-button img {
 @media (max-width: 650px) {
   header.masthead {
     height: auto;
-    padding-top: 100px;
+    padding-top: 10px;
     padding-bottom: 40px;
     min-height: auto;
+  }
+
+  header .container {
+    padding-left: 20px;
   }
 
   .h-100 {
@@ -11211,6 +11216,26 @@ header.masthead .download-button img {
 
   header.masthead .middle {
     margin: 10px 0px;
+    padding-top: 20px;
+  }
+
+  header .text-body {
+    width: 20vw;
+    font-size: 12px !important;
+  }
+
+  header .divider {
+    display: none;
+  }
+
+  header .head-logo {
+    min-height: 3vw;
+    height: 2vw;
+    margin-bottom: 0px;
+  }
+
+  .col-lg-8 {
+    padding: 0px;
   }
 }
 #page-top {
@@ -11224,6 +11249,7 @@ header.masthead .download-button img {
 
 .totalview .rightside {
   transform: translate(-300px, 50px);
+  display: none;
 }
 
 .js-formBuilder-toggle .formbuilder-toggle {
@@ -11231,10 +11257,16 @@ header.masthead .download-button img {
 }
 
 .footer {
-  padding: 20px 0px;
-  color: #2F314A;
+  padding: 20px;
+  font-family: sans-serif;
+  color: #4A4E69 !important;
   background: #f4e9e3;
   background: linear-gradient(145deg, #f4e9e3 0%, #ccaba6 100%);
+  display: flex;
+  justify-content: space-between;
+}
+.footer a {
+  color: #4A4E69 !important;
 }
 
 .demo {
@@ -11385,5 +11417,10 @@ h1, .h1 {
 
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
     color: #4A4E69;
+  }
+}
+@media (max-width: 450px) {
+  #mainNav {
+    display: none;
   }
 }

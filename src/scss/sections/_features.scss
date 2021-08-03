@@ -1,10 +1,11 @@
 .generators {
-  width: 70%;
+  width: 100%;
 }
 
 .generators .gen-item {
   display: flex;
   justify-content: flex-start;
+  height: 30px !important;
 }
 
 .generators .gen-item .title {
@@ -28,9 +29,9 @@
   display: none;
   transition: all 0.2s;
   opacity: 0;
-
+  overflow: visible;
   color: #96959F;
-  padding: 10px;
+  padding: 5px 10px;
   transition: all 0.2s;
 }
 

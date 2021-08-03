@@ -88,9 +88,12 @@ header.masthead .download-button img {
 @media (max-width: 650px) {
   header.masthead {
     height: auto;
-    padding-top: 100px;
+    padding-top: 10px;
     padding-bottom: 40px;
     min-height: auto;
+  }
+  header .container {
+    padding-left: 20px;
   }
   .h-100 {
     height: auto;
@@ -108,5 +111,21 @@ header.masthead .download-button img {
   }
   header.masthead .middle {
     margin: 10px 0px;
+    padding-top: 20px;
+  }
+  header .text-body {
+    width: 20vw;
+    font-size: 12px !important;
+  }
+  header .divider {
+    display: none;
+  }
+  header .head-logo {
+    min-height: 3vw;
+    height: 2vw;
+    margin-bottom: 0px;
+  }
+  .col-lg-8 {
+    padding: 0px;
   }
 }

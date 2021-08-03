@@ -17,10 +17,17 @@
 }
 
 .footer {
-  padding: 20px 0px;
-  color: #2F314A;
+  padding: 20px;
+  font-family: sans-serif;
+  color: #4A4E69 !important;
   background: rgb(244,233,227);
   background: linear-gradient(145deg, rgba(244,233,227,1) 0%, rgba(204,171,166,1) 100%);
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    color: #4A4E69 !important;
+  }
 }
 
 .demo {
@@ -146,5 +153,11 @@ h1, .h1 {
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
     color: #4A4E69;
+  }
+}
+
+@media (max-width: 450px) {
+  #mainNav {
+    display: none;
   }
 }
