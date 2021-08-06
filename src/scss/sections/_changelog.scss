@@ -1,0 +1,37 @@
+#mainNav {
+  background: linear-gradient(145deg, rgba(244,233,227,1) 0%, rgba(204,171,166,1) 100%);
+}
+.changes {
+  padding-top: 100px;
+  width: 50%;
+  margin: 0 auto;
+
+  .text-body {
+    margin-bottom: 20px;
+  }
+
+  .change {
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    .change-head {
+      display: flex;
+      justify-content: space-between;
+      .date {
+        font-weight: bold;
+      }
+      .separator {
+        height: 1px;
+        background-color: #212529;
+        width: 35%;
+        margin-top: 10px;
+      }
+      .version {
+        font-weight: lighter;
+      }
+    }
+    .info {
+      width: 100%;
+      padding: 10px 0px 0px 20px;
+    }
+  }
+}

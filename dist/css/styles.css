@@ -11057,6 +11057,25 @@ hr.divider-light {
   opacity: 1;
 }
 
+.changelog {
+  transition: all 0.2s;
+  background: white;
+  margin: 20px 0px 0px 10px;
+  font-family: sans-serif;
+  text-decoration: none;
+  border: 0px;
+  padding: 0px;
+  font-weight: bold;
+  color: #4A4E69;
+  display: block;
+}
+
+.changelog:hover {
+  color: #C9ADA7;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
 #features {
   width: 400%;
 }
@@ -11423,4 +11442,50 @@ h1, .h1 {
   #mainNav {
     display: none;
   }
+}
+#mainNav {
+  background: linear-gradient(145deg, #f4e9e3 0%, #ccaba6 100%);
+}
+
+.changes {
+  padding-top: 100px;
+  width: 50%;
+  margin: 0 auto;
+}
+.changes .text-body {
+  margin-bottom: 20px;
+}
+.changes .change {
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+.changes .change .change-head {
+  display: flex;
+  justify-content: space-between;
+}
+.changes .change .change-head .date {
+  font-weight: bold;
+}
+.changes .change .change-head .separator {
+  height: 1px;
+  background-color: #212529;
+  width: 35%;
+  margin-top: 10px;
+}
+.changes .change .change-head .version {
+  font-weight: lighter;
+}
+.changes .change .info {
+  width: 100%;
+  padding: 10px 0px 0px 20px;
+}
+
+.policies {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.policy {
+  padding-bottom: 100px;
 }

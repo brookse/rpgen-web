@@ -1,0 +1,115 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    meta(name='description', content='')
+    meta(name='author', content='Lyzzi Brooks')
+
+    title RPGen
+
+    // Favicon
+    link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+    // Bootstrap Icons
+    link(href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css', rel='stylesheet')
+
+    // Google fonts
+    link(href='https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic', rel='stylesheet', type='text/css')
+
+    // SimpleLightbox plugin CSS
+    link(href='https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css', rel='stylesheet')
+
+    // Core theme CSS (includes Bootstrap)
+    link(href='css/styles.css', rel='stylesheet')
+
+  body#page-top(href="/index.html#page-top")
+    // Navigation
+    nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top.py-3
+      .container.px-4.px-lg-5
+        img.header-logo.top(src='assets/img/long-title.png', title='RPGen')
+        button.navbar-toggler.navbar-toggler-right(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarResponsive.collapse.navbar-collapse
+          ul.navbar-nav.ms-auto.my-2.my-lg-0
+            li.nav-item
+              a.nav-link(href='/index.html#download') Download
+            li.nav-item
+              a.nav-link(href='/index.html#features') Features
+            li.nav-item
+              a.nav-link(href='/index.html#contact') Contact
+
+    .changes
+      h1.text-body.font-weight-bold Changelog
+      .change
+        .change-head
+          .date August 6, 2021
+          .separator
+          .version Version 0.2.0 (26)
+        .info
+          | - New generators: Hideout, Magical weapons (common+), Bookstore
+          br
+          | - Add more possibilities for adjectives, geolocations, NPC backgrounds, landmarks
+          br
+          | - Clean up names
+      .change
+        .change-head
+          .date July 30, 2021
+          .separator
+          .version Version 0.2.0 (25)
+        .info
+          | - New generators: Heraldry, Magical jewelry, Magic armor (rare+)
+          br
+          | - Generator updated: more complicated magical armor
+          br
+          | - Add anonymous name
+          br
+          | - Add sidebar to navigate to Favorites, About, TOU
+          br
+          | - Breakout favorites to it's own page
+          br
+          | - Ability to redo welcome survey
+      .change
+        .change-head
+          .date July 12, 2021
+          .separator
+          .version Version 0.2.0 (24)
+        .info
+          | - New generator: Magic armor (uncommon)
+          br
+          | - Add report function
+      .change
+        .change-head
+          .date May 7, 2021
+          .separator
+          .version Version 0.2.0 (23)
+        .info
+          | - New generators: Building names, Bounties
+          br
+          | - More books, and select by type
+          br
+          | - Add session summary and donate telemetry
+      .change
+        .change-head
+          .date April 30, 2021
+          .separator
+          .version Version 0.2.0 (22)
+        .info
+          | - New generator: Rumours
+          br
+          | - Add "split" option to coin conversion
+          br
+          | - Add some more possible location descriptions
+          br
+          | - Add a few more main course meals
+          br
+          | - All food has a name, even if it's boring
+
+
+    // Footer
+    footer.footer
+      a(href="/privacy.html")
+        | Privacy & Terms
+      .small
+        | Copyright &copy; 2021 - RPGen

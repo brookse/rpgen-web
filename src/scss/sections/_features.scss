@@ -47,6 +47,24 @@
   opacity: 1;
 }
 
+.changelog {
+  transition: all 0.2s;
+  background: white;
+  margin: 20px 0px 0px 10px;
+  font-family: sans-serif;
+  text-decoration: none;
+  border: 0px;
+  padding: 0px;
+  font-weight: bold;
+  color: #4A4E69;
+  display: block;
+}
+.changelog:hover {
+  color: #C9ADA7;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
 #features {
   width: 400%;
 }
