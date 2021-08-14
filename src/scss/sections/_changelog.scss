@@ -35,3 +35,12 @@
     }
   }
 }
+
+@media (max-width: 450px) {
+  .navbar-toggler {
+    display: none;
+  }
+  .changes {
+    width: 80%;
+  }
+}

@@ -11305,10 +11305,6 @@ header.masthead .download-button img {
 }
 
 @media (max-width: 650px) {
-  nav {
-    display: none;
-  }
-
   .rightside {
     display: none;
   }
@@ -11438,11 +11434,6 @@ h1, .h1 {
     color: #4A4E69;
   }
 }
-@media (max-width: 450px) {
-  #mainNav {
-    display: none;
-  }
-}
 #mainNav {
   background: linear-gradient(145deg, #f4e9e3 0%, #ccaba6 100%);
 }
@@ -11480,6 +11471,15 @@ h1, .h1 {
   padding: 10px 0px 0px 20px;
 }
 
+@media (max-width: 450px) {
+  .navbar-toggler {
+    display: none;
+  }
+
+  .changes {
+    width: 80%;
+  }
+}
 .policies {
   width: 70%;
   margin: 0 auto;
