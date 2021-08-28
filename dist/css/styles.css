@@ -11171,8 +11171,8 @@ header.masthead .download {
 header.masthead .download-button {
   display: flex;
   justify-content: center;
-  height: 45px;
-  width: 140px;
+  height: 50px;
+  width: 170px;
   padding: 13px;
   background: white;
   border-radius: 50px;
@@ -11195,7 +11195,8 @@ header.masthead .download-button:hover {
 }
 
 header.masthead .download-button img {
-  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media (max-width: 1200px) {
@@ -11206,8 +11207,10 @@ header.masthead .download-button img {
 @media (max-width: 650px) {
   header.masthead {
     height: auto;
-    padding-top: 10px;
+    padding-top: 100px;
     padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
     min-height: auto;
   }
 
@@ -11229,18 +11232,17 @@ header.masthead .download-button img {
   }
 
   header.masthead .download-button img {
-    background-size: cover;
+    padding: 0px 6px;
     width: 100%;
   }
 
   header.masthead .middle {
     margin: 10px 0px;
-    padding-top: 20px;
   }
 
   header .text-body {
     width: 20vw;
-    font-size: 12px !important;
+    font-size: 20px !important;
   }
 
   header .divider {
@@ -11248,9 +11250,9 @@ header.masthead .download-button img {
   }
 
   header .head-logo {
-    min-height: 3vw;
-    height: 2vw;
-    margin-bottom: 0px;
+    min-height: 10vw;
+    height: 10vw;
+    margin-bottom: 20px;
   }
 
   .col-lg-8 {
@@ -11432,6 +11434,11 @@ h1, .h1 {
 
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
     color: #4A4E69;
+  }
+}
+@media (max-width: 650px) {
+  #mainNav {
+    display: none;
   }
 }
 #mainNav {

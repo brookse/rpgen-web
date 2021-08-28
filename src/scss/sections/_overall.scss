@@ -152,3 +152,9 @@ h1, .h1 {
     color: #4A4E69;
   }
 }
+
+@media (max-width: 650px) {
+  #mainNav {
+    display: none;
+  }
+}
