@@ -11441,6 +11441,10 @@ h1, .h1 {
     display: none;
   }
 }
+#producthunt {
+  padding-top: 0px;
+}
+
 #mainNav {
   background: linear-gradient(145deg, #f4e9e3 0%, #ccaba6 100%);
 }
